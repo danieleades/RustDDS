@@ -677,7 +677,7 @@ impl Discovery {
             }
           },
         Ok(None) => {
-          debug!("handle_participant_reader: out of data");
+          //debug!("handle_participant_reader: no more data");
           return
         } // no more data
         Err(e) => error!("{:?}",e),
